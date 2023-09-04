@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exam-generator">
+    <output-path>$PROJECT_DIR$/out/artifacts/exam_generator</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="exam-generator-jsf/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exam-generator-jsf" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.glassfish:javax.faces:2.3.0" />
+          <element id="library" level="project" name="Maven: javax.faces:javax.faces-api:2.3" />
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.4.5.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
